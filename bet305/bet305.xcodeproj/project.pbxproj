@@ -13,6 +13,8 @@
 		A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */; };
 		A4D87EF320AF10F5008C2F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EF120AF10F5008C2F8C /* LaunchScreen.storyboard */; };
 		A4D87EF620AF10F5008C2F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EF520AF10F5008C2F8C /* main.m */; };
+		A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */; };
+		A4D87F1F20AF223F008C2F8C /* SNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */; };
 		F10EBF2984A1CA9B9054A794 /* libPods-bet305.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A467F8E52140A2088B596F /* libPods-bet305.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,10 @@
 		A4D87EF220AF10F5008C2F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D87EF420AF10F5008C2F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D87EF520AF10F5008C2F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFlowerVC.m; sourceTree = "<group>"; };
+		A4D87F0C20AF223F008C2F8C /* SNFlowerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFlowerVC.h; sourceTree = "<group>"; };
+		A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTabBarController.m; sourceTree = "<group>"; };
+		A4D87F1B20AF223F008C2F8C /* SNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTabBarController.h; sourceTree = "<group>"; };
 		E0A467F8E52140A2088B596F /* libPods-bet305.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bet305.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +90,11 @@
 			children = (
 				A4D87EE620AF10F4008C2F8C /* AppDelegate.h */,
 				A4D87EE720AF10F4008C2F8C /* AppDelegate.m */,
+				A4D87F1720AF223F008C2F8C /* Common */,
+				A4D87EFD20AF223E008C2F8C /* Expand */,
+				A4D87F0420AF223F008C2F8C /* Main */,
+				A4D87EFC20AF223E008C2F8C /* Resource */,
+				A4D87F0320AF223E008C2F8C /* Vender */,
 				A4D87EE920AF10F4008C2F8C /* ViewController.h */,
 				A4D87EEA20AF10F4008C2F8C /* ViewController.m */,
 				A4D87EEC20AF10F4008C2F8C /* Main.storyboard */,
@@ -93,6 +104,245 @@
 				A4D87EF520AF10F5008C2F8C /* main.m */,
 			);
 			path = bet305;
+			sourceTree = "<group>";
+		};
+		A4D87EFC20AF223E008C2F8C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A4D87EFD20AF223E008C2F8C /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87EFE20AF223E008C2F8C /* Category */,
+				A4D87EFF20AF223E008C2F8C /* Network */,
+				A4D87F0020AF223E008C2F8C /* Const */,
+				A4D87F0120AF223E008C2F8C /* Macros */,
+				A4D87F0220AF223E008C2F8C /* Tool */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		A4D87EFE20AF223E008C2F8C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4D87EFF20AF223E008C2F8C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A4D87F0020AF223E008C2F8C /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		A4D87F0120AF223E008C2F8C /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		A4D87F0220AF223E008C2F8C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A4D87F0320AF223E008C2F8C /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A4D87F0420AF223F008C2F8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F0520AF223F008C2F8C /* Home */,
+				A4D87F0920AF223F008C2F8C /* Flower */,
+				A4D87F0F20AF223F008C2F8C /* Daily */,
+				A4D87F1320AF223F008C2F8C /* Me */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A4D87F0520AF223F008C2F8C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F0620AF223F008C2F8C /* Controller */,
+				A4D87F0720AF223F008C2F8C /* Model */,
+				A4D87F0820AF223F008C2F8C /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4D87F0620AF223F008C2F8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D87F0720AF223F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F0820AF223F008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F0920AF223F008C2F8C /* Flower */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F0A20AF223F008C2F8C /* Controller */,
+				A4D87F0D20AF223F008C2F8C /* Model */,
+				A4D87F0E20AF223F008C2F8C /* View */,
+			);
+			path = Flower;
+			sourceTree = "<group>";
+		};
+		A4D87F0A20AF223F008C2F8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */,
+				A4D87F0C20AF223F008C2F8C /* SNFlowerVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D87F0D20AF223F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F0E20AF223F008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F0F20AF223F008C2F8C /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F1020AF223F008C2F8C /* Controller */,
+				A4D87F1120AF223F008C2F8C /* Model */,
+				A4D87F1220AF223F008C2F8C /* View */,
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		A4D87F1020AF223F008C2F8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D87F1120AF223F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F1220AF223F008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F1320AF223F008C2F8C /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F1420AF223F008C2F8C /* Controller */,
+				A4D87F1520AF223F008C2F8C /* Model */,
+				A4D87F1620AF223F008C2F8C /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A4D87F1420AF223F008C2F8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D87F1520AF223F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F1620AF223F008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F1720AF223F008C2F8C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F1820AF223F008C2F8C /* BaseVC */,
+				A4D87F1920AF223F008C2F8C /* TabBar */,
+				A4D87F1C20AF223F008C2F8C /* Model */,
+				A4D87F1D20AF223F008C2F8C /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A4D87F1820AF223F008C2F8C /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		A4D87F1920AF223F008C2F8C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */,
+				A4D87F1B20AF223F008C2F8C /* SNTabBarController.h */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A4D87F1C20AF223F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F1D20AF223F008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +462,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D87F1F20AF223F008C2F8C /* SNTabBarController.m in Sources */,
+				A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */,
 				A4D87EEB20AF10F4008C2F8C /* ViewController.m in Sources */,
 				A4D87EF620AF10F5008C2F8C /* main.m in Sources */,
 				A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */,
