@@ -1,0 +1,101 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - LCBannerView (2.1.1):
+    - SDWebImage (~> 3.7.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.15.3)
+  - mob_sharesdk (4.1.1):
+    - mob_sharesdk/ShareSDK (= 4.1.1)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.1.1):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Facebook (4.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo (4.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Twitter (4.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.1.1):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.1.5)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - Toast (4.0.0)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - LCBannerView (~> 2.1.1)
+  - Masonry (~> 1.1.0)
+  - MJRefresh (~> 3.1.15.3)
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKPlatforms/Facebook
+  - mob_sharesdk/ShareSDKPlatforms/QQ
+  - mob_sharesdk/ShareSDKPlatforms/SinaWeibo
+  - mob_sharesdk/ShareSDKPlatforms/Twitter
+  - mob_sharesdk/ShareSDKPlatforms/WeChat
+  - MWPhotoBrowser (= 2.1.2)
+  - SDWebImage (~> 3.7.2)
+  - Toast (= 4.0.0)
+  - YYText (~> 1.0.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - DACircularProgress
+    - LCBannerView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - mob_sharesdk
+    - MOBFoundation
+    - MWPhotoBrowser
+    - SDWebImage
+    - Toast
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  LCBannerView: 072c732ad7a2136e96c893e24cb650295c6c2635
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  mob_sharesdk: 6cb2159a5205d79c0f3e2d5a10ae63362c8e09d3
+  MOBFoundation: d961251ce6de54917f678dc711962d1385ae7ee1
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 88cd6126b9f812b123cd2e01a5a7c9716933b9fb
+
+COCOAPODS: 1.5.2

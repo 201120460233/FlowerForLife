@@ -13,9 +13,12 @@
 		A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */; };
 		A4D87EF320AF10F5008C2F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EF120AF10F5008C2F8C /* LaunchScreen.storyboard */; };
 		A4D87EF620AF10F5008C2F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EF520AF10F5008C2F8C /* main.m */; };
+		F10EBF2984A1CA9B9054A794 /* libPods-bet305.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A467F8E52140A2088B596F /* libPods-bet305.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676324B6C111523674DFC707 /* Pods-bet305.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bet305.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bet305/Pods-bet305.debug.xcconfig"; sourceTree = "<group>"; };
+		68407507FA9C718017EE2C48 /* Pods-bet305.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bet305.release.xcconfig"; path = "Pods/Target Support Files/Pods-bet305/Pods-bet305.release.xcconfig"; sourceTree = "<group>"; };
 		A4D87EE320AF10F4008C2F8C /* bet305.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bet305.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D87EE620AF10F4008C2F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4D87EE720AF10F4008C2F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A4D87EF220AF10F5008C2F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D87EF420AF10F5008C2F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D87EF520AF10F5008C2F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0A467F8E52140A2088B596F /* libPods-bet305.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bet305.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10EBF2984A1CA9B9054A794 /* libPods-bet305.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		294D112ABAF84BEAF3C36B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A467F8E52140A2088B596F /* libPods-bet305.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D7EBF0F82F06F8B81FA9C2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				676324B6C111523674DFC707 /* Pods-bet305.debug.xcconfig */,
+				68407507FA9C718017EE2C48 /* Pods-bet305.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4D87EDA20AF10F4008C2F8C = {
 			isa = PBXGroup;
 			children = (
 				A4D87EE520AF10F4008C2F8C /* bet305 */,
 				A4D87EE420AF10F4008C2F8C /* Products */,
+				3D7EBF0F82F06F8B81FA9C2C /* Pods */,
+				294D112ABAF84BEAF3C36B26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4D87EF920AF10F5008C2F8C /* Build configuration list for PBXNativeTarget "bet305" */;
 			buildPhases = (
+				9DDFC15E05E385CCFF841F4D /* [CP] Check Pods Manifest.lock */,
 				A4D87EDF20AF10F4008C2F8C /* Sources */,
 				A4D87EE020AF10F4008C2F8C /* Frameworks */,
 				A4D87EE120AF10F4008C2F8C /* Resources */,
+				B53D511885C33E3854743C2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DDFC15E05E385CCFF841F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bet305-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B53D511885C33E3854743C2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bet305/Pods-bet305-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/Required/ShareSDK.bundle",
+				"${PODS_ROOT}/mob_sharesdk/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bet305/Pods-bet305-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4D87EDF20AF10F4008C2F8C /* Sources */ = {
@@ -281,6 +352,7 @@
 		};
 		A4D87EFA20AF10F5008C2F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676324B6C111523674DFC707 /* Pods-bet305.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +370,7 @@
 		};
 		A4D87EFB20AF10F5008C2F8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68407507FA9C718017EE2C48 /* Pods-bet305.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
