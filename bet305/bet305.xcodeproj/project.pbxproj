@@ -7,25 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A413ED7A20B26048003D5951 /* SNDailyEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED7420B26047003D5951 /* SNDailyEditVC.m */; };
+		A413ED7B20B26048003D5951 /* SNDailyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED7520B26048003D5951 /* SNDailyVC.m */; };
+		A413ED7C20B26048003D5951 /* SNDailyInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED7720B26048003D5951 /* SNDailyInfoVC.m */; };
+		A413ED8520B260C2003D5951 /* SimulateIDFA.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8120B260C1003D5951 /* SimulateIDFA.m */; };
+		A413ED8620B260C2003D5951 /* SNCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8420B260C2003D5951 /* SNCommonTool.m */; };
+		A413ED8D20B260D3003D5951 /* NSObject+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8720B260D3003D5951 /* NSObject+Check.m */; };
+		A413ED8E20B260D3003D5951 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8A20B260D3003D5951 /* UIViewController+NavigationBar.m */; };
+		A413ED8F20B260D3003D5951 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8C20B260D3003D5951 /* UIView+Frame.m */; };
 		A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EE720AF10F4008C2F8C /* AppDelegate.m */; };
-		A4D87EEB20AF10F4008C2F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EEA20AF10F4008C2F8C /* ViewController.m */; };
 		A4D87EEE20AF10F4008C2F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEC20AF10F4008C2F8C /* Main.storyboard */; };
 		A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */; };
 		A4D87EF320AF10F5008C2F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EF120AF10F5008C2F8C /* LaunchScreen.storyboard */; };
 		A4D87EF620AF10F5008C2F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EF520AF10F5008C2F8C /* main.m */; };
 		A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */; };
-		A4D87F1F20AF223F008C2F8C /* SNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */; };
+		A4D87F3120AF263F008C2F8C /* SNBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F2520AF263E008C2F8C /* SNBaseVC.m */; };
+		A4D87F3220AF263F008C2F8C /* SNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F2920AF263E008C2F8C /* SNTabBarController.m */; };
+		A4D87F3320AF263F008C2F8C /* SNBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F2D20AF263F008C2F8C /* SNBaseModel.m */; };
+		A4D87F3420AF263F008C2F8C /* SNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F3020AF263F008C2F8C /* SNNavigationController.m */; };
+		A4D87F3720AF2695008C2F8C /* SNHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F3620AF2695008C2F8C /* SNHomeVC.m */; };
+		A4D87F3D20AF26C1008C2F8C /* SNMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87F3920AF26C1008C2F8C /* SNMyVC.m */; };
 		F10EBF2984A1CA9B9054A794 /* libPods-bet305.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A467F8E52140A2088B596F /* libPods-bet305.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		676324B6C111523674DFC707 /* Pods-bet305.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bet305.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bet305/Pods-bet305.debug.xcconfig"; sourceTree = "<group>"; };
 		68407507FA9C718017EE2C48 /* Pods-bet305.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bet305.release.xcconfig"; path = "Pods/Target Support Files/Pods-bet305/Pods-bet305.release.xcconfig"; sourceTree = "<group>"; };
+		A413ED7420B26047003D5951 /* SNDailyEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDailyEditVC.m; sourceTree = "<group>"; };
+		A413ED7520B26048003D5951 /* SNDailyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDailyVC.m; sourceTree = "<group>"; };
+		A413ED7620B26048003D5951 /* SNDailyInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDailyInfoVC.h; sourceTree = "<group>"; };
+		A413ED7720B26048003D5951 /* SNDailyInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNDailyInfoVC.m; sourceTree = "<group>"; };
+		A413ED7820B26048003D5951 /* SNDailyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDailyVC.h; sourceTree = "<group>"; };
+		A413ED7920B26048003D5951 /* SNDailyEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDailyEditVC.h; sourceTree = "<group>"; };
+		A413ED7D20B260B7003D5951 /* SNHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNHeader.h; sourceTree = "<group>"; };
+		A413ED7E20B260B7003D5951 /* SNConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNConfig.h; sourceTree = "<group>"; };
+		A413ED7F20B260B7003D5951 /* SNDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNDefine.h; sourceTree = "<group>"; };
+		A413ED8120B260C1003D5951 /* SimulateIDFA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulateIDFA.m; sourceTree = "<group>"; };
+		A413ED8220B260C1003D5951 /* SimulateIDFA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulateIDFA.h; sourceTree = "<group>"; };
+		A413ED8320B260C1003D5951 /* SNCommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCommonTool.h; sourceTree = "<group>"; };
+		A413ED8420B260C2003D5951 /* SNCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCommonTool.m; sourceTree = "<group>"; };
+		A413ED8720B260D3003D5951 /* NSObject+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Check.m"; sourceTree = "<group>"; };
+		A413ED8820B260D3003D5951 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A413ED8920B260D3003D5951 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		A413ED8A20B260D3003D5951 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		A413ED8B20B260D3003D5951 /* NSObject+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Check.h"; sourceTree = "<group>"; };
+		A413ED8C20B260D3003D5951 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		A4D87EE320AF10F4008C2F8C /* bet305.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bet305.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D87EE620AF10F4008C2F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4D87EE720AF10F4008C2F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4D87EE920AF10F4008C2F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4D87EEA20AF10F4008C2F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4D87EED20AF10F4008C2F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D87EF220AF10F5008C2F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -33,8 +62,18 @@
 		A4D87EF520AF10F5008C2F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNFlowerVC.m; sourceTree = "<group>"; };
 		A4D87F0C20AF223F008C2F8C /* SNFlowerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNFlowerVC.h; sourceTree = "<group>"; };
-		A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTabBarController.m; sourceTree = "<group>"; };
-		A4D87F1B20AF223F008C2F8C /* SNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTabBarController.h; sourceTree = "<group>"; };
+		A4D87F2520AF263E008C2F8C /* SNBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBaseVC.m; sourceTree = "<group>"; };
+		A4D87F2620AF263E008C2F8C /* SNBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBaseVC.h; sourceTree = "<group>"; };
+		A4D87F2920AF263E008C2F8C /* SNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTabBarController.m; sourceTree = "<group>"; };
+		A4D87F2A20AF263E008C2F8C /* SNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTabBarController.h; sourceTree = "<group>"; };
+		A4D87F2C20AF263F008C2F8C /* SNBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBaseModel.h; sourceTree = "<group>"; };
+		A4D87F2D20AF263F008C2F8C /* SNBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBaseModel.m; sourceTree = "<group>"; };
+		A4D87F2F20AF263F008C2F8C /* SNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNNavigationController.h; sourceTree = "<group>"; };
+		A4D87F3020AF263F008C2F8C /* SNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNNavigationController.m; sourceTree = "<group>"; };
+		A4D87F3520AF2695008C2F8C /* SNHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNHomeVC.h; sourceTree = "<group>"; };
+		A4D87F3620AF2695008C2F8C /* SNHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNHomeVC.m; sourceTree = "<group>"; };
+		A4D87F3920AF26C1008C2F8C /* SNMyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNMyVC.m; sourceTree = "<group>"; };
+		A4D87F3A20AF26C1008C2F8C /* SNMyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNMyVC.h; sourceTree = "<group>"; };
 		E0A467F8E52140A2088B596F /* libPods-bet305.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bet305.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +106,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A413ED8020B260C1003D5951 /* SimulateIDFA */ = {
+			isa = PBXGroup;
+			children = (
+				A413ED8120B260C1003D5951 /* SimulateIDFA.m */,
+				A413ED8220B260C1003D5951 /* SimulateIDFA.h */,
+			);
+			path = SimulateIDFA;
+			sourceTree = "<group>";
+		};
 		A4D87EDA20AF10F4008C2F8C = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +143,6 @@
 				A4D87F0420AF223F008C2F8C /* Main */,
 				A4D87EFC20AF223E008C2F8C /* Resource */,
 				A4D87F0320AF223E008C2F8C /* Vender */,
-				A4D87EE920AF10F4008C2F8C /* ViewController.h */,
-				A4D87EEA20AF10F4008C2F8C /* ViewController.m */,
 				A4D87EEC20AF10F4008C2F8C /* Main.storyboard */,
 				A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */,
 				A4D87EF120AF10F5008C2F8C /* LaunchScreen.storyboard */,
@@ -128,6 +174,12 @@
 		A4D87EFE20AF223E008C2F8C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED8B20B260D3003D5951 /* NSObject+Check.h */,
+				A413ED8720B260D3003D5951 /* NSObject+Check.m */,
+				A413ED8820B260D3003D5951 /* UIView+Frame.h */,
+				A413ED8C20B260D3003D5951 /* UIView+Frame.m */,
+				A413ED8920B260D3003D5951 /* UIViewController+NavigationBar.h */,
+				A413ED8A20B260D3003D5951 /* UIViewController+NavigationBar.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -142,6 +194,9 @@
 		A4D87F0020AF223E008C2F8C /* Const */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED7E20B260B7003D5951 /* SNConfig.h */,
+				A413ED7F20B260B7003D5951 /* SNDefine.h */,
+				A413ED7D20B260B7003D5951 /* SNHeader.h */,
 			);
 			path = Const;
 			sourceTree = "<group>";
@@ -156,6 +211,9 @@
 		A4D87F0220AF223E008C2F8C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED8020B260C1003D5951 /* SimulateIDFA */,
+				A413ED8320B260C1003D5951 /* SNCommonTool.h */,
+				A413ED8420B260C2003D5951 /* SNCommonTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -191,6 +249,8 @@
 		A4D87F0620AF223F008C2F8C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A4D87F3520AF2695008C2F8C /* SNHomeVC.h */,
+				A4D87F3620AF2695008C2F8C /* SNHomeVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,6 +315,12 @@
 		A4D87F1020AF223F008C2F8C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED7920B26048003D5951 /* SNDailyEditVC.h */,
+				A413ED7420B26047003D5951 /* SNDailyEditVC.m */,
+				A413ED7620B26048003D5951 /* SNDailyInfoVC.h */,
+				A413ED7720B26048003D5951 /* SNDailyInfoVC.m */,
+				A413ED7820B26048003D5951 /* SNDailyVC.h */,
+				A413ED7520B26048003D5951 /* SNDailyVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,73 +342,89 @@
 		A4D87F1320AF223F008C2F8C /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				A4D87F1420AF223F008C2F8C /* Controller */,
-				A4D87F1520AF223F008C2F8C /* Model */,
-				A4D87F1620AF223F008C2F8C /* View */,
+				A4D87F3820AF26C1008C2F8C /* Controller */,
+				A4D87F3C20AF26C1008C2F8C /* Model */,
+				A4D87F3B20AF26C1008C2F8C /* View */,
 			);
 			path = Me;
-			sourceTree = "<group>";
-		};
-		A4D87F1420AF223F008C2F8C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A4D87F1520AF223F008C2F8C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A4D87F1620AF223F008C2F8C /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		A4D87F1720AF223F008C2F8C /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				A4D87F1820AF223F008C2F8C /* BaseVC */,
-				A4D87F1920AF223F008C2F8C /* TabBar */,
-				A4D87F1C20AF223F008C2F8C /* Model */,
-				A4D87F1D20AF223F008C2F8C /* View */,
+				A4D87F2420AF263E008C2F8C /* BaseVC */,
+				A4D87F2B20AF263F008C2F8C /* Model */,
+				A4D87F2E20AF263F008C2F8C /* NaviC */,
+				A4D87F2820AF263E008C2F8C /* TabBar */,
+				A4D87F2720AF263E008C2F8C /* View */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		A4D87F1820AF223F008C2F8C /* BaseVC */ = {
+		A4D87F2420AF263E008C2F8C /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				A4D87F2520AF263E008C2F8C /* SNBaseVC.m */,
+				A4D87F2620AF263E008C2F8C /* SNBaseVC.h */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
-		A4D87F1920AF223F008C2F8C /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				A4D87F1A20AF223F008C2F8C /* SNTabBarController.m */,
-				A4D87F1B20AF223F008C2F8C /* SNTabBarController.h */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		A4D87F1C20AF223F008C2F8C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A4D87F1D20AF223F008C2F8C /* View */ = {
+		A4D87F2720AF263E008C2F8C /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F2820AF263E008C2F8C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F2920AF263E008C2F8C /* SNTabBarController.m */,
+				A4D87F2A20AF263E008C2F8C /* SNTabBarController.h */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A4D87F2B20AF263F008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F2C20AF263F008C2F8C /* SNBaseModel.h */,
+				A4D87F2D20AF263F008C2F8C /* SNBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D87F2E20AF263F008C2F8C /* NaviC */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F2F20AF263F008C2F8C /* SNNavigationController.h */,
+				A4D87F3020AF263F008C2F8C /* SNNavigationController.m */,
+			);
+			path = NaviC;
+			sourceTree = "<group>";
+		};
+		A4D87F3820AF26C1008C2F8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D87F3920AF26C1008C2F8C /* SNMyVC.m */,
+				A4D87F3A20AF26C1008C2F8C /* SNMyVC.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D87F3B20AF26C1008C2F8C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D87F3C20AF26C1008C2F8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,11 +544,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D87F1F20AF223F008C2F8C /* SNTabBarController.m in Sources */,
+				A413ED8E20B260D3003D5951 /* UIViewController+NavigationBar.m in Sources */,
+				A4D87F3720AF2695008C2F8C /* SNHomeVC.m in Sources */,
+				A4D87F3420AF263F008C2F8C /* SNNavigationController.m in Sources */,
+				A4D87F3220AF263F008C2F8C /* SNTabBarController.m in Sources */,
+				A4D87F3D20AF26C1008C2F8C /* SNMyVC.m in Sources */,
 				A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */,
-				A4D87EEB20AF10F4008C2F8C /* ViewController.m in Sources */,
+				A413ED8620B260C2003D5951 /* SNCommonTool.m in Sources */,
+				A413ED7B20B26048003D5951 /* SNDailyVC.m in Sources */,
+				A413ED7A20B26048003D5951 /* SNDailyEditVC.m in Sources */,
+				A4D87F3120AF263F008C2F8C /* SNBaseVC.m in Sources */,
+				A413ED8520B260C2003D5951 /* SimulateIDFA.m in Sources */,
 				A4D87EF620AF10F5008C2F8C /* main.m in Sources */,
+				A4D87F3320AF263F008C2F8C /* SNBaseModel.m in Sources */,
 				A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */,
+				A413ED8F20B260D3003D5951 /* UIView+Frame.m in Sources */,
+				A413ED7C20B26048003D5951 /* SNDailyInfoVC.m in Sources */,
+				A413ED8D20B260D3003D5951 /* NSObject+Check.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

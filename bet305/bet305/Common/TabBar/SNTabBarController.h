@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SNTabBarController.h
 //  bet305
 //
 //  Created by shuni on 2018/5/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface SNTabBarController : UITabBarController
 
 @end
-

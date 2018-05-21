@@ -7,18 +7,19 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "SNTabBarController.h"
 
 @interface AppDelegate ()
-
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    SNTabBarController *tabBarC = [[SNTabBarController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = tabBarC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
