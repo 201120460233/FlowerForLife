@@ -15,6 +15,14 @@
 		A413ED8D20B260D3003D5951 /* NSObject+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8720B260D3003D5951 /* NSObject+Check.m */; };
 		A413ED8E20B260D3003D5951 /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8A20B260D3003D5951 /* UIViewController+NavigationBar.m */; };
 		A413ED8F20B260D3003D5951 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED8C20B260D3003D5951 /* UIView+Frame.m */; };
+		A413ED9220B26482003D5951 /* SNFlowerDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9120B26482003D5951 /* SNFlowerDetailVC.m */; };
+		A413ED9420B26F10003D5951 /* Articles.plist in Resources */ = {isa = PBXBuildFile; fileRef = A413ED9320B26F10003D5951 /* Articles.plist */; };
+		A413ED9720B29EFD003D5951 /* SNFlowerLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9620B29EFD003D5951 /* SNFlowerLayout.m */; };
+		A413ED9A20B2A336003D5951 /* SNFlowerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9920B2A336003D5951 /* SNFlowerCollectionViewCell.m */; };
+		A413ED9D20B2A669003D5951 /* SNFlowerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9C20B2A669003D5951 /* SNFlowerModel.m */; };
+		A413EDA020B2B175003D5951 /* SNBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9F20B2B175003D5951 /* SNBannerModel.m */; };
+		A413EDA220B2C7C6003D5951 /* Flowers.plist in Resources */ = {isa = PBXBuildFile; fileRef = A413EDA120B2C7C6003D5951 /* Flowers.plist */; };
+		A413EDA420B2FED3003D5951 /* Home.plist in Resources */ = {isa = PBXBuildFile; fileRef = A413EDA320B2FED3003D5951 /* Home.plist */; };
 		A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EE720AF10F4008C2F8C /* AppDelegate.m */; };
 		A4D87EEE20AF10F4008C2F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEC20AF10F4008C2F8C /* Main.storyboard */; };
 		A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */; };
@@ -52,6 +60,19 @@
 		A413ED8A20B260D3003D5951 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
 		A413ED8B20B260D3003D5951 /* NSObject+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Check.h"; sourceTree = "<group>"; };
 		A413ED8C20B260D3003D5951 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A413ED9020B26482003D5951 /* SNFlowerDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFlowerDetailVC.h; sourceTree = "<group>"; };
+		A413ED9120B26482003D5951 /* SNFlowerDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFlowerDetailVC.m; sourceTree = "<group>"; };
+		A413ED9320B26F10003D5951 /* Articles.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Articles.plist; sourceTree = "<group>"; };
+		A413ED9520B29EFD003D5951 /* SNFlowerLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFlowerLayout.h; sourceTree = "<group>"; };
+		A413ED9620B29EFD003D5951 /* SNFlowerLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFlowerLayout.m; sourceTree = "<group>"; };
+		A413ED9820B2A336003D5951 /* SNFlowerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFlowerCollectionViewCell.h; sourceTree = "<group>"; };
+		A413ED9920B2A336003D5951 /* SNFlowerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFlowerCollectionViewCell.m; sourceTree = "<group>"; };
+		A413ED9B20B2A669003D5951 /* SNFlowerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNFlowerModel.h; sourceTree = "<group>"; };
+		A413ED9C20B2A669003D5951 /* SNFlowerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFlowerModel.m; sourceTree = "<group>"; };
+		A413ED9E20B2B174003D5951 /* SNBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNBannerModel.h; sourceTree = "<group>"; };
+		A413ED9F20B2B175003D5951 /* SNBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBannerModel.m; sourceTree = "<group>"; };
+		A413EDA120B2C7C6003D5951 /* Flowers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Flowers.plist; sourceTree = "<group>"; };
+		A413EDA320B2FED3003D5951 /* Home.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Home.plist; sourceTree = "<group>"; };
 		A4D87EE320AF10F4008C2F8C /* bet305.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bet305.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D87EE620AF10F4008C2F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4D87EE720AF10F4008C2F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,6 +176,9 @@
 		A4D87EFC20AF223E008C2F8C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED9320B26F10003D5951 /* Articles.plist */,
+				A413EDA120B2C7C6003D5951 /* Flowers.plist */,
+				A413EDA320B2FED3003D5951 /* Home.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -282,8 +306,10 @@
 		A4D87F0A20AF223F008C2F8C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */,
 				A4D87F0C20AF223F008C2F8C /* SNFlowerVC.h */,
+				A4D87F0B20AF223F008C2F8C /* SNFlowerVC.m */,
+				A413ED9020B26482003D5951 /* SNFlowerDetailVC.h */,
+				A413ED9120B26482003D5951 /* SNFlowerDetailVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +317,8 @@
 		A4D87F0D20AF223F008C2F8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED9B20B2A669003D5951 /* SNFlowerModel.h */,
+				A413ED9C20B2A669003D5951 /* SNFlowerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,6 +326,10 @@
 		A4D87F0E20AF223F008C2F8C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A413ED9520B29EFD003D5951 /* SNFlowerLayout.h */,
+				A413ED9620B29EFD003D5951 /* SNFlowerLayout.m */,
+				A413ED9820B2A336003D5951 /* SNFlowerCollectionViewCell.h */,
+				A413ED9920B2A336003D5951 /* SNFlowerCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,6 +423,8 @@
 			children = (
 				A4D87F2C20AF263F008C2F8C /* SNBaseModel.h */,
 				A4D87F2D20AF263F008C2F8C /* SNBaseModel.m */,
+				A413ED9E20B2B174003D5951 /* SNBannerModel.h */,
+				A413ED9F20B2B175003D5951 /* SNBannerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -489,6 +523,9 @@
 				A4D87EF320AF10F5008C2F8C /* LaunchScreen.storyboard in Resources */,
 				A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */,
 				A4D87EEE20AF10F4008C2F8C /* Main.storyboard in Resources */,
+				A413EDA420B2FED3003D5951 /* Home.plist in Resources */,
+				A413EDA220B2C7C6003D5951 /* Flowers.plist in Resources */,
+				A413ED9420B26F10003D5951 /* Articles.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,15 +583,20 @@
 			files = (
 				A413ED8E20B260D3003D5951 /* UIViewController+NavigationBar.m in Sources */,
 				A4D87F3720AF2695008C2F8C /* SNHomeVC.m in Sources */,
+				A413ED9A20B2A336003D5951 /* SNFlowerCollectionViewCell.m in Sources */,
 				A4D87F3420AF263F008C2F8C /* SNNavigationController.m in Sources */,
 				A4D87F3220AF263F008C2F8C /* SNTabBarController.m in Sources */,
 				A4D87F3D20AF26C1008C2F8C /* SNMyVC.m in Sources */,
+				A413ED9220B26482003D5951 /* SNFlowerDetailVC.m in Sources */,
+				A413ED9D20B2A669003D5951 /* SNFlowerModel.m in Sources */,
 				A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */,
 				A413ED8620B260C2003D5951 /* SNCommonTool.m in Sources */,
 				A413ED7B20B26048003D5951 /* SNDailyVC.m in Sources */,
 				A413ED7A20B26048003D5951 /* SNDailyEditVC.m in Sources */,
+				A413EDA020B2B175003D5951 /* SNBannerModel.m in Sources */,
 				A4D87F3120AF263F008C2F8C /* SNBaseVC.m in Sources */,
 				A413ED8520B260C2003D5951 /* SimulateIDFA.m in Sources */,
+				A413ED9720B29EFD003D5951 /* SNFlowerLayout.m in Sources */,
 				A4D87EF620AF10F5008C2F8C /* main.m in Sources */,
 				A4D87F3320AF263F008C2F8C /* SNBaseModel.m in Sources */,
 				A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */,
