@@ -9,6 +9,7 @@
 #ifndef SNHeader_h
 #define SNHeader_h
 
+#import "SNTabBarController.h"
 #import "UIViewController+NavigationBar.h"
 #import "UIView+Frame.h"
 #import "SNDefine.h"

@@ -12,13 +12,17 @@
 #import "SNDailyVC.h"
 #import "SNMyVC.h"
 #import "SNNavigationController.h"
-#import "SNDefine.h"
+#import "SNHeader.h"
+
+static
 
 @interface SNTabBarController ()<UITabBarControllerDelegate>
 
 @end
 
 @implementation SNTabBarController
+
+DEFINE_SINGLETON_FOR_CLASS(SNTabBarController);
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,11 +41,11 @@
     SNHomeVC *home = [[SNHomeVC alloc] init];
     [self addChildVC:home title:@"首页" norImg:@"tabBar_me_click_icon" selImg:@"tabBar_me_icon"];
     
-    SNDailyVC *daily = [[SNDailyVC alloc] init];
-    [self addChildVC:daily title:@"书单" norImg:@"tabBar_new_click_icon" selImg:@"tabBar_new_icon"];
-    
     SNFlowerVC *flower = [[SNFlowerVC alloc] init];
-    [self addChildVC:flower title:@"养花" norImg:@"tabBar_new_click_icon" selImg:@"tabBar_new_icon"];
+    [self addChildVC:flower title:@"花卉" norImg:@"tabBar_new_click_icon" selImg:@"tabBar_new_icon"];
+    
+    SNDailyVC *daily = [[SNDailyVC alloc] init];
+    [self addChildVC:daily title:@"文章" norImg:@"tabBar_new_click_icon" selImg:@"tabBar_new_icon"];
     
     SNMyVC *me = [[SNMyVC alloc] init];
     [self addChildVC:me title:@"我的" norImg:@"tabBar_friendTrends_click_icon" selImg:@"tabBar_friendTrends_icon"];

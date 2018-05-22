@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SNDefine.h"
 
 @interface SNTabBarController : UITabBarController
-
+    
+DEFINE_SINGLETON_FOR_HEADER(SNTabBarController);
+    
 @end

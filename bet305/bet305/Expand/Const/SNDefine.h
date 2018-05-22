@@ -91,7 +91,7 @@ return shared##className; \
  */
 #define kScreenWidth   [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight  [UIScreen mainScreen].bounds.size.height
-#define TabBar_Height  [YZTabBarVC sharedYZTabBarVC].tabBar.frame.size.height                   //tab栏高度
+#define TabBar_Height  [SNTabBarController sharedSNTabBarController].tabBar.frame.size.height //tab栏高度
 #define NAV_Portrait_Status_Height [UIApplication sharedApplication].statusBarFrame.size.height //状态栏高度
 #define NAV_Portrait_Height ([UIApplication sharedApplication].statusBarFrame.size.height+NAV_Portrait_NoStatus_Height) //NAV和状态栏的高度
 
