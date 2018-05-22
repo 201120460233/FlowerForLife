@@ -54,7 +54,9 @@ static NSString * const SNFlowerDetailCell = @"SNFlowerDetailCell";
     }];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:SNFlowerDetailCell];
     [self.tableView reloadData];
-    [self createTableHeaderView];
+    if (self.flowerModel.imgArray.count > 0) {
+        [self createTableHeaderView];
+    }
 }
 
 - (void)createTableHeaderView {

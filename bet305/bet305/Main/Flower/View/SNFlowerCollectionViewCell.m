@@ -24,7 +24,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         _imgView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, self.frame.size.width - 20, 120)];
-        _imgView.contentMode = UIViewContentModeScaleAspectFit;
+//        _imgView.contentMode = UIViewContentModeScaleAspectFit;
         [self.contentView addSubview:_imgView];
         
         _nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 126, self.frame.size.width - 20, 20)];

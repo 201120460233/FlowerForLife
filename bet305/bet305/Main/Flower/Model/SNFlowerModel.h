@@ -17,10 +17,7 @@
 @property (nonatomic, strong) NSString *desc;
 @property (nonatomic, strong) NSArray *imgArray;
 @property (nonatomic, strong) NSArray *infoArray;
-//@property (nonatomic, strong) NSString *characteristics;
-//@property (nonatomic, strong) NSString *ecologicalHabits;
-//@property (nonatomic, strong) NSString *flowerLanguage;
-
+    
 - (instancetype)initWithDic:(NSDictionary *)dic;
 
 @end

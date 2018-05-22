@@ -13,7 +13,7 @@
 #import "SNFlowerModel.h"
 #import "SNFlowerDetailVC.h"
 
-@interface SNFlowerVC ()<UICollectionViewDelegate, UICollectionViewDataSource>
+@interface SNFlowerVC ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
@@ -51,17 +51,21 @@
 #pragma mark -
 #pragma mark - Private method
 - (void)setupUI {
-    SNFlowerLayout *layout = [[SNFlowerLayout alloc] init];
+//    SNFlowerLayout *layout = [[SNFlowerLayout alloc] init];
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    layout.itemCount = (int)self.dataArray.count;
-    layout.sectionInset = UIEdgeInsetsMake(20, 10, 20, 10);
-//    layout.itemSize = CGSizeMake(150, 196);
-    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:layout];
+//    layout.itemCount = (int)self.dataArray.count;
+    layout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:layout];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
     self.collectionView.backgroundColor = kYZBackgroundColor;
     [self.collectionView registerClass:[SNFlowerCollectionViewCell class] forCellWithReuseIdentifier:@"MyCell"];
     [self.view addSubview:self.collectionView];
+    [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.right.equalTo(self.view);
+        make.bottom.equalTo(self.view).offset(-TabBar_Height);
+    }];
 }
 
 #pragma mark -
@@ -91,12 +95,10 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-////UICollectionViewDelegateFlowLayout去改变单元格大小:
-//-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-//    
-//    CGFloat height=100+(arc4random()%100);
-//    return  CGSizeMake(100, height);
-//    
-//}
+#pragma mark -
+#pragma mark - UICollectionViewDelegateFlowLayout
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    return  CGSizeMake((kScreenWidth - 30)/2, 280);
+}
 
 @end
