@@ -23,6 +23,7 @@
 		A413EDA020B2B175003D5951 /* SNBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A413ED9F20B2B175003D5951 /* SNBannerModel.m */; };
 		A413EDA220B2C7C6003D5951 /* Flowers.plist in Resources */ = {isa = PBXBuildFile; fileRef = A413EDA120B2C7C6003D5951 /* Flowers.plist */; };
 		A413EDA420B2FED3003D5951 /* Home.plist in Resources */ = {isa = PBXBuildFile; fileRef = A413EDA320B2FED3003D5951 /* Home.plist */; };
+		A418BEF620B41E8B00E06AF1 /* SNDailyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A418BEF520B41E8B00E06AF1 /* SNDailyModel.m */; };
 		A4D87EE820AF10F4008C2F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D87EE720AF10F4008C2F8C /* AppDelegate.m */; };
 		A4D87EEE20AF10F4008C2F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEC20AF10F4008C2F8C /* Main.storyboard */; };
 		A4D87EF020AF10F5008C2F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D87EEF20AF10F5008C2F8C /* Assets.xcassets */; };
@@ -73,6 +74,8 @@
 		A413ED9F20B2B175003D5951 /* SNBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNBannerModel.m; sourceTree = "<group>"; };
 		A413EDA120B2C7C6003D5951 /* Flowers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Flowers.plist; sourceTree = "<group>"; };
 		A413EDA320B2FED3003D5951 /* Home.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Home.plist; sourceTree = "<group>"; };
+		A418BEF420B41E8B00E06AF1 /* SNDailyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNDailyModel.h; sourceTree = "<group>"; };
+		A418BEF520B41E8B00E06AF1 /* SNDailyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNDailyModel.m; sourceTree = "<group>"; };
 		A4D87EE320AF10F4008C2F8C /* bet305.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bet305.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D87EE620AF10F4008C2F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4D87EE720AF10F4008C2F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -360,6 +363,8 @@
 		A4D87F1120AF223F008C2F8C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A418BEF420B41E8B00E06AF1 /* SNDailyModel.h */,
+				A418BEF520B41E8B00E06AF1 /* SNDailyModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -412,8 +417,8 @@
 		A4D87F2820AF263E008C2F8C /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				A4D87F2920AF263E008C2F8C /* SNTabBarController.m */,
 				A4D87F2A20AF263E008C2F8C /* SNTabBarController.h */,
+				A4D87F2920AF263E008C2F8C /* SNTabBarController.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -591,6 +596,7 @@
 				A413ED9D20B2A669003D5951 /* SNFlowerModel.m in Sources */,
 				A4D87F1E20AF223F008C2F8C /* SNFlowerVC.m in Sources */,
 				A413ED8620B260C2003D5951 /* SNCommonTool.m in Sources */,
+				A418BEF620B41E8B00E06AF1 /* SNDailyModel.m in Sources */,
 				A413ED7B20B26048003D5951 /* SNDailyVC.m in Sources */,
 				A413ED7A20B26048003D5951 /* SNDailyEditVC.m in Sources */,
 				A413EDA020B2B175003D5951 /* SNBannerModel.m in Sources */,
